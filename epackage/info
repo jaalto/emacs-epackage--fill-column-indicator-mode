@@ -15,7 +15,7 @@ Homepage: https://github.com/alpaker/Fill-Column-Indicator
 Wiki: http://www.emacswiki.org/emacs/FillColumnIndicator
 Commentary: fill-column-indicator.el
 Info:
-Description: Minor mde to graphically indicate the fill column
+Description: minor mde to graphically indicate the fill column
  Many modern editors and IDEs can graphically indicate the location of the
  fill column by drawing a thin line (in design parlance, a `rule') down the
  length of the editing window.  Fill-column-indicator implements this
