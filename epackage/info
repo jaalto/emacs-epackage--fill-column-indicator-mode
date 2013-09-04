@@ -1,0 +1,26 @@
+Package: fill-column-indicator-mode
+Section: extensions
+License: GPL-2+
+Depends: emacs (>= 23)
+Status: stable
+Archive:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Alp Aker <alp.tekin.aker@gmail.com>
+Upstream-Bugs: https://github.com/alpaker/Fill-Column-Indicator/issues
+Vcs-Type: git
+Vcs-Url: git://github.com/alpaker/Fill-Column-Indicator.git
+Vcs-Browser:  https://github.com/alpaker/Fill-Column-Indicator
+Homepage: https://github.com/alpaker/Fill-Column-Indicator
+Wiki: http://www.emacswiki.org/emacs/FillColumnIndicator
+Commentary: fill-column-indicator.el
+Info:
+Description: Minor mde to graphically indicate the fill column
+ Many modern editors and IDEs can graphically indicate the location of the
+ fill column by drawing a thin line (in design parlance, a `rule') down the
+ length of the editing window.  Fill-column-indicator implements this
+ facility in Emacs.
+ .
+ Note: There is bug in Emacs 24.3 which can cause vertical motion commands
+ to skip blank lines when `fci-mode' is active.
+
